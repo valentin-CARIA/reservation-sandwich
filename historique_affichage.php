@@ -9,5 +9,3 @@
     	echo ".$result['nom_user']";
      }
 
-
-?>
