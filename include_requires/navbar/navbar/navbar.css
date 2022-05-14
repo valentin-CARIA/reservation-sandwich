@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+* {
+    font-family: "Playfair Display", serif;
+    font-size: 105%;
+    color: black;
+}
+
+#intro {
+    background-color: rgba(30, 45, 76);
+    padding-bottom: 0.5%;
+}
+
+#logo {
+    text-align: center;
+}
+
+#logo img {
+    margin-top: 9%;
+}
+
+#lien-accueil {
+    color: white;
+}
+
+.col-lg-11 {
+    width: 13.666667% !important;
+}

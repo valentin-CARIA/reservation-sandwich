@@ -1,0 +1,20 @@
+th, td:not(td:last-child) {
+    border: solid .1rem black;
+}
+
+form {
+    position: relative;
+    left: 32%;
+}
+
+#al {
+    left: 0%;
+}
+
+#al1 {
+    text-align: center;
+}
+
+#al2 {
+    text-align: center;
+}
