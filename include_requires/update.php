@@ -88,7 +88,8 @@ if (!empty($_POST)) {
                     <button type="submit" name="submit" class="btn btn-success"><span
                                 class="glyphicon glyphicon-pencil"></span> Modifier
                     </button>
-                    <a class="btn btn-primary" href="index.php"><span class="glyphicon glyphicon-arrow-left"></span>
+                    <a class="btn btn-primary" href="affichageCom.php"><span
+                                class="glyphicon glyphicon-arrow-left"></span>
                         Retour</a>
                 </div>
             </form>
