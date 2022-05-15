@@ -4,7 +4,7 @@ require('navbar/navbar.php');
 
 require_once '../db/connexion.php';
 
-
+//requete de modification de donnée des commande de la sandwicherie
 if (!empty($_GET['id'])) {
     $id = checkInput($_GET['id']);
 }
@@ -47,7 +47,7 @@ if (!empty($_POST)) {
 }
 ?>
 
-
+<!--formulaire lier a la modification-->
 <!DOCTYPE html>
 <html>
 <head>

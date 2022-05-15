@@ -6,7 +6,7 @@ require('navbar/navbar.php');
 require_once '../db/connexion.php';
 $co = connexionBdd();
 
-
+//requete qui permet de trier les information par date de debut et de fin ainsi qu'affichagr des donner
 if (isset($_REQUEST['datedeb'], $_REQUEST['datefin']) || isset($_SESSION['datedeb'], $_SESSION['datefin'])) {
     $_SESSION['datedeb'] = $_REQUEST['datedeb'] ?? $_SESSION['datedeb'];
     $_SESSION['datefin'] = $_REQUEST['datefin'] ?? $_SESSION['datefin'];
@@ -34,6 +34,7 @@ if (isset($_REQUEST['datedeb'], $_REQUEST['datefin']) || isset($_SESSION['datede
 $cat->execute();
 $rows = $cat->fetchAll(PDO::FETCH_ASSOC);
 ?>
+<!-- tableau qui affichera les données-->
 <link rel="stylesheet" href="css/style.css">
 <form method="POST">
     <label>

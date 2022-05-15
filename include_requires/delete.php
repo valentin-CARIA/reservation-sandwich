@@ -6,7 +6,7 @@ require_once '../db/connexion.php';
 if (!empty($_GET['id'])) {
     $id = checkInput($_GET['id']);
 }
-
+// requete qui suprime les donner
 if (!empty($_POST)) {
     $id = checkInput($_POST['id']);
     $co = connexionBdd();
@@ -24,7 +24,7 @@ function checkInput($data)
 }
 
 ?>
-
+<!--formulaire lier a la suppresion-->
 <!DOCTYPE html>
 <html>
 <head>

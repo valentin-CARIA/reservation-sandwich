@@ -1,3 +1,4 @@
+/*css du tableau et petit correctif des erreur d'apparence*/
 th, td:not(td:last-child) {
     border: solid .1rem black;
 }

@@ -1,4 +1,5 @@
 <?php
+//requete qui affiche les donnee d'utilisateur
 require 'navbar/navbar.php';
 require_once '../db/connexion.php';
 $co = connexionBdd();
